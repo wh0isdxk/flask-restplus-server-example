@@ -1,7 +1,7 @@
 ##############################################################################
 # Reverse Proxy
 ##############################################################################
-FROM nginx:alpine
+FROM nginx:1.29.5-alpine3.23
 
 ADD conf.d/ /etc/nginx/conf.d
 ADD index.html /etc/nginx/html/
